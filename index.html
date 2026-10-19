@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Exco · Réseau de cabinets d’expertise comptable, d’audit et de conseil</title>
+<meta name="description" content="Exco réunit 139 cabinets d’expertise comptable, d’audit et de conseil indépendants, en France et dans 14 autres pays. Maquette de refonte.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#EEE9DC">
+<link rel="icon" href="assets/img/logos/exco-logo.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/newsreader.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/plex-mono-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/vendor/lenis.css">
+<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body data-page="home">
+<a class="skip" href="#contenu">Aller au contenu</a>
+
+<div class="opening" aria-hidden="true">
+  <div class="opening-lines"></div>
+  <div class="opening-margin"></div>
+  <div class="opening-head"><span>Folio</span><span>Libellé</span><span>Débit</span><span>Crédit</span></div>
+  <div class="opening-core">
+    <img src="assets/img/logos/exco-logo.svg" alt="">
+    <div class="opening-solde"><span>Solde à l’ouverture</span><b class="dbl" data-solde>0,00</b></div>
+  </div>
+</div>
+
+<div class="margin-rule" aria-hidden="true"></div>
+<div class="margin-label" aria-hidden="true">f° <b>01</b>&nbsp;&nbsp;Ouverture</div>
+
+<header class="hd">
+  <a class="hd-logo" href="index.html" aria-label="Exco, accueil"><img src="assets/img/logos/exco-logo.svg" alt="Exco" width="116" height="31"></a>
+  <span class="hd-tag" title="Proposition de refonte, non officielle">Maquette</span>
+  <nav class="hd-nav" aria-label="Navigation principale">
+    <a href="#reseau">Le réseau</a>
+    <a href="#metiers">Nos métiers</a>
+    <a href="cabinets.html">Trouver un cabinet</a>
+    <a href="#carrieres">Recrutement</a>
+    <a href="#actualites">Actualités</a>
+  </nav>
+  <div class="hd-right">
+    <span class="hd-folio" aria-hidden="true">f° <b data-folio-now>01</b> / <span data-folio-total>12</span></span>
+    <a class="btn btn-sm" href="#rendez-vous" data-magnetic>Prendre rendez-vous</a>
+    <button class="hd-menu" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+  </div>
+</header>
+
+<div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="Menu">
+  <button class="hd-menu-x menu-close btn btn-line btn-sm" type="button">Fermer</button>
+  <a class="menu-item" href="#reseau">Le réseau <span>f° 07</span></a>
+  <a class="menu-item" href="#metiers">Nos métiers <span>f° 05</span></a>
+  <a class="menu-item" href="cabinets.html">Trouver un cabinet <span>139</span></a>
+  <a class="menu-item" href="expertise-comptable.html">Expertise comptable <span>page</span></a>
+  <a class="menu-item" href="#carrieres">Recrutement <span>f° 10</span></a>
+  <a class="menu-item" href="#actualites">Actualités <span>f° 11</span></a>
+  <a class="btn" href="#rendez-vous">Prendre rendez-vous</a>
+</div>
+
+<main id="contenu">
+
+  <!-- f°01 Ouverture -->
+  <section class="hero" data-folio="01" data-folio-name="Ouverture" aria-labelledby="hero-title">
+    <div class="hero-media">
+      <picture>
+        <source media="(max-width: 760px)" srcset="assets/img/grok/hero-territoire-mobile-600.webp 600w, assets/img/grok/hero-territoire-mobile-900.webp 900w" sizes="100vw">
+        <img class="gl-src" src="assets/img/grok/hero-territoire-1200.webp" srcset="assets/img/grok/hero-territoire-800.webp 800w, assets/img/grok/hero-territoire-1200.webp 1200w, assets/img/grok/hero-territoire-1600.webp 1600w" sizes="100vw" alt="Vue aérienne de champs et d’un village au petit matin, dont les sillons forment des lignes parallèles" fetchpriority="high">
+      </picture>
+    </div>
+    <div class="hero-body wrap">
+      <h1 class="d1 hero-title" id="hero-title"><span class="line">Rendre simple</span><span class="line">et naturel</span><span class="line">l’entrepreneuriat.</span></h1>
+      <p class="lede hero-sub">Exco réunit 139 cabinets d’expertise comptable, d’audit et de conseil, indépendants et proches de vous, en France et dans 14 autres pays.</p>
+      <div class="hero-cta">
+        <a class="btn" href="cabinets.html" data-magnetic data-cursor="139 cabinets">
+          <svg class="nib" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1 L13 7 L8 15 L3 7 Z M8 4 V9" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>
+          Trouver votre cabinet</a>
+        <a class="btn btn-line" href="#rendez-vous" data-magnetic>Prendre rendez-vous</a>
+      </div>
+    </div>
+    <div class="hero-ticker" aria-label="Le réseau en bref">
+      <div class="ticker-track">
+        <span><b>139</b> cabinets</span><span><b>15</b> pays</span><span><b>350</b> experts-comptables</span><span><b>23</b> groupes membres</span><span>Né en <b>2002</b></span><span>Membre de Kreston Global depuis <b>2008</b></span><span>Un associé, <b>une voix</b></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- f°02 Le bilan -->
+  <section class="section ruled" id="bilan" data-folio="02" data-folio-name="Le réseau en chiffres" aria-labelledby="bilan-title">
+    <div class="wrap">
+      <div class="section-head split">
+        <div>
+          <p class="folio-tag"><b>f° 02</b> Le réseau en chiffres</p>
+          <h2 class="d2" id="bilan-title" data-split>La puissance d’un grand réseau, des cabinets à taille humaine.</h2>
+        </div>
+        <p class="lede">Chaque cabinet garde son indépendance et son capital. Ensemble, ils partagent des méthodes, des outils et des expertises.</p>
+      </div>
+      <div class="bilan-grid">
+        <div class="ledger" role="table" aria-label="Chiffres clés du réseau Exco">
+          <div class="ledger-head" role="row"><span role="columnheader">Libellé</span><span role="columnheader">Montant</span></div>
+          <div class="ledger-row" role="row"><span class="lbl" role="cell">Cabinets d’expertise comptable<small>Fiches publiées sur exco.fr en octobre 2026</small></span><i class="lead"></i><span class="amt" role="cell" data-flip="139">139</span>
+            <p class="meta note">Le site actuel affiche aussi 136 et 140 selon les pages. <span class="tbc">à confirmer</span></p></div>
+          <div class="ledger-row" role="row"><span class="lbl" role="cell">Pays d’implantation<small>France, Pologne, Portugal et 12 pays d’Afrique</small></span><i class="lead"></i><span class="amt" role="cell" data-flip="15">15</span>
+            <p class="meta note">La page Recrutement indique 16 et 17 pays. <span class="tbc">à confirmer</span></p></div>
+          <div class="ledger-row" role="row"><span class="lbl" role="cell">Experts-comptables dans le réseau</span><i class="lead"></i><span class="amt" role="cell" data-flip="350">350</span></div>
+          <div class="ledger-row" role="row"><span class="lbl" role="cell">Professionnels dans le monde</span><i class="lead"></i><span class="amt" role="cell"><span data-flip="3 400">3 400</span><span class="unit">et plus</span></span>
+            <p class="meta note">Ailleurs : « près de 3 000 » et « plus de 3 000 collaborateurs ». <span class="tbc">à confirmer</span></p></div>
+          <div class="ledger-row" role="row"><span class="lbl" role="cell">Groupes membres<small>Comptés sur la page Nous connaître</small></span><i class="lead"></i><span class="amt" role="cell" data-flip="23">23</span></div>
+          <div class="ledger-row" role="row"><span class="lbl" role="cell">Année de naissance du réseau<small>Fusion d’Exco et du réseau A2A</small></span><i class="lead"></i><span class="amt" role="cell" data-flip="2002">2002</span></div>
+          <div class="ledger-foot"><span class="dbl dbl-blue d4">Membre de Kreston Global depuis 2008</span></div>
+        </div>
+        <aside class="bilan-aside" aria-label="Notre mission">
+          <div class="sheet" data-tilt="4">
+            <p class="folio-tag" style="margin-bottom:14px">Notre mission</p>
+            <p class="d4" style="font-style:italic">« Remettre de l’intelligence et du cœur dans le monde des affaires, pour que l’entrepreneuriat devienne une source de joie et d’épanouissement. »</p>
+            <p class="note" style="margin-top:18px">Extrait de la page Nous connaître</p>
+          </div>
+          <div data-stamp-host></div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- f°03 Manifeste -->
+  <section class="section" id="manifeste" data-folio="03" data-folio-name="Un métier humain" aria-labelledby="manifeste-title">
+    <div class="wrap">
+      <p class="folio-tag" style="margin-bottom:28px"><b>f° 03</b> Un métier humain</p>
+      <h2 class="sr" id="manifeste-title">Un métier humain</h2>
+      <p class="manifesto-text" data-ink>Nous pensons qu’on ne fait pas un métier technique, mais humain. Nous aimons nous définir comme une communauté de fertiliseurs d’entreprises, qui vous aide à faire croître et embellir la vôtre.</p>
+      <figure class="manifesto-photo" style="margin-left:0;margin-right:0">
+        <div class="frame" data-reveal="up">
+          <img src="assets/img/photos/school-exco-1600.webp" srcset="assets/img/photos/school-exco-800.webp 800w, assets/img/photos/school-exco-1600.webp 1600w" sizes="(max-width: 1000px) 100vw, 80vw" alt="Les collaborateurs du réseau réunis lors de la School d’intégration Exco, devant une banderole « Merci »" loading="lazy" data-parallax="12">
+        </div>
+        <figcaption class="figcap"><span>La School d’intégration réunit chaque année à Paris les nouveaux collaborateurs du réseau.</span><span>Photo exco.fr</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- f°04 Cycle de vie -->
+  <section class="cycle" id="cycle" data-folio="04" data-folio-name="Le cycle de vie de l’entreprise" aria-labelledby="cycle-title">
+    <div class="wrap" style="padding-top:clamp(72px,9vw,140px)">
+      <div class="section-head split" style="margin-bottom:0">
+        <div>
+          <p class="folio-tag"><b>f° 04</b> Le cycle de vie de l’entreprise</p>
+          <h2 class="d2" id="cycle-title" data-split>À chaque étape, une écriture juste.</h2>
+        </div>
+        <p class="lede">Vos enjeux d’un côté, notre accompagnement de l’autre. Quatre moments de la vie d’une entreprise, et les métiers du réseau qui y répondent.</p>
+      </div>
+    </div>
+    <div class="cycle-pin">
+      <div class="cycle-track" data-cycle-track></div>
+      <div class="cycle-progress" aria-hidden="true"><i></i></div>
+    </div>
+    <div class="wrap"><p class="note" style="padding:8px 0 clamp(48px,6vw,96px)">Lorsqu’un cabinet du réseau est commissaire aux comptes d’une entreprise, les règles d’indépendance de la profession encadrent les autres missions qu’il peut lui proposer.</p></div>
+  </section>
+
+  <!-- f°05 Métiers -->
+  <section class="section ruled" id="metiers" data-folio="05" data-folio-name="Nos métiers" aria-labelledby="metiers-title">
+    <div class="wrap">
+      <div class="section-head split">
+        <div>
+          <p class="folio-tag"><b>f° 05</b> Nos métiers</p>
+          <h2 class="d2" id="metiers-title" data-split>Un plan de comptes complet pour votre entreprise.</h2>
+        </div>
+        <p class="lede">Expertise comptable, audit, conseil, social, juridique et fiscal : la colonne de droite indique combien de cabinets du réseau proposent chaque métier.</p>
+      </div>
+      <div class="accounts">
+        <div class="accounts-head" aria-hidden="true"><span>Métier</span><span>Cabinets</span><span></span></div>
+        <div data-accounts></div>
+      </div>
+    </div>
+    <div class="preview" aria-hidden="true"></div>
+  </section>
+
+  <!-- f°06 Secteurs -->
+  <section class="section" id="secteurs" data-folio="06" data-folio-name="Secteurs" aria-labelledby="secteurs-title">
+    <div class="wrap">
+      <div class="section-head split">
+        <div>
+          <p class="folio-tag"><b>f° 06</b> Secteurs</p>
+          <h2 class="d2" id="secteurs-title" data-split>Quatorze secteurs que nos équipes connaissent de l’intérieur.</h2>
+        </div>
+        <p class="lede">Des commissions sectorielles réunissent régulièrement les experts de tous les cabinets pour partager leur connaissance des métiers de leurs clients.</p>
+      </div>
+      <div class="sectors">
+        <ul class="sector-list" data-sectors></ul>
+        <div class="sector-stage" data-sector-stage aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- f°07 Le réseau -->
+  <section class="section ruled" id="reseau" data-folio="07" data-folio-name="Le réseau" aria-labelledby="reseau-title">
+    <div class="wrap">
+      <div class="reseau-grid">
+        <div>
+          <p class="folio-tag"><b>f° 07</b> Le réseau</p>
+          <h2 class="d2" id="reseau-title" data-split style="margin-top:20px">Nos cabinets sont engagés sur vos territoires.</h2>
+          <div class="reseau-count" style="margin-top:36px"><span class="amt" data-count-cabs>139</span><span class="d4">cabinets<br>recensés</span></div>
+          <ul class="region-list" data-regions></ul>
+          <div class="insets" data-insets></div>
+          <form class="search-line" action="cabinets.html" method="get" role="search">
+            <div class="field"><label for="q-home" class="sr">Ville, code postal ou département</label><input id="q-home" name="q" placeholder="Ville, code postal ou département" autocomplete="address-level2"></div>
+            <button class="btn" type="submit" data-magnetic>Chercher</button>
+          </form>
+          <p class="note" style="margin-top:10px">Ou <a class="link" href="cabinets.html?geo=1">utilisez votre position</a> pour voir les cabinets les plus proches.</p>
+        </div>
+        <div class="map-wrap" data-home-map></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- f°08 Gouvernance -->
+  <section class="section carbon ruled" id="gouvernance" data-folio="08" data-folio-name="Gouvernance" aria-labelledby="gov-title">
+    <div class="wrap">
+      <div class="section-head split">
+        <div>
+          <p class="folio-tag"><b>f° 08</b> Gouvernance</p>
+          <h2 class="gov-quote" id="gov-title" style="margin-top:22px">« Un homme, une voix. »</h2>
+        </div>
+        <p class="lede">La stratégie du réseau est définie par un Comité directeur où chaque cabinet membre est représenté par un associé. Un Bureau exécutif élu la met en œuvre, avec le directeur général. Les cabinets restent indépendants dans leur capital.</p>
+      </div>
+      <h3 class="d4">Le Bureau exécutif</h3>
+      <div class="people" data-people></div>
+      <p class="note" style="margin-top:28px">Le site annonce un Bureau exécutif de six membres élus et en présente huit ; la page RSE cite un autre président que la page Gouvernance. <span class="tbc">à confirmer</span></p>
+      <h3 class="d4" style="margin-top:clamp(56px,7vw,96px)">Le Comité directeur</h3>
+      <ul class="board-list" data-board></ul>
+      <div class="kreston">
+        <img src="assets/img/logos/kreston-global-400.webp" alt="Kreston Global" width="200" height="105" loading="lazy">
+        <div>
+          <p class="d4">Exco est membre de Kreston Global depuis 2008.</p>
+          <p class="lede" style="margin-top:10px">Kreston Global est un réseau mondial de cabinets comptables, d’audit et de conseil, chacun étant une entité juridique indépendante. Il est présent dans plus de 115 pays.</p>
+          <p style="margin-top:16px"><a class="link ext" href="https://www.kreston.com/" target="_blank" rel="noopener">kreston.com</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- f°09 RSE -->
+  <section class="section" id="rse" data-folio="09" data-folio-name="Engagements" aria-labelledby="rse-title">
+    <div class="wrap">
+      <div class="section-head split">
+        <div>
+          <p class="folio-tag"><b>f° 09</b> Engagements</p>
+          <h2 class="d2" id="rse-title" data-split>Un bilan qui ne se lit pas qu’en euros.</h2>
+        </div>
+        <p class="lede">Environnement, social, solidarité, gouvernance : les actions menées par le réseau et ses cabinets, telles que décrites dans nos engagements RSE.</p>
+      </div>
+      <div class="rse-grid">
+        <ul class="checklist" data-checklist>
+          <li><span class="box"></span><div><h3>Mois Exco Responsable</h3><p>Chaque année, un mois de sensibilisation aux enjeux sociaux et environnementaux, avec un challenge pour réduire l’empreinte carbone et une action de solidarité.</p></div></li>
+          <li><span class="box"></span><div><h3>Exco a du cœur</h3><p>Depuis plus de sept ans, en décembre, des collectes pour les Restos du Cœur, le Secours populaire, les banques alimentaires et d’autres associations.</p></div></li>
+          <li><span class="box"></span><div><h3>Exco United</h3><p>Depuis plus de sept ans, un challenge de marche connectée pour lutter contre la sédentarité.</p></div></li>
+          <li><span class="box"></span><div><h3>Convention des entreprises pour le climat</h3><p>Participation au parcours « Monde financier », session 2023-2024.</p></div></li>
+          <li><span class="box"></span><div><h3>Index égalité femmes-hommes</h3><p>Les cabinets publient leur index et travaillent à l’égalité salariale.</p></div></li>
+          <li><span class="box"></span><div><h3>Duo Day</h3><p>Une journée pour accueillir en binôme une personne en situation de handicap.</p></div></li>
+          <li><span class="box"></span><div><h3>Bilan carbone</h3><p>Plusieurs cabinets du réseau ont mesuré leurs émissions et engagé un plan d’action.</p></div></li>
+        </ul>
+        <div>
+          <div class="collage">
+            <figure class="c1"><img src="assets/img/photos/exco-united-800.webp" srcset="assets/img/photos/exco-united-800.webp 800w, assets/img/photos/exco-united-1400.webp 1400w" sizes="(max-width: 1000px) 100vw, 30vw" alt="Des collaborateurs en tee-shirt Exco United, bras levés, en forêt" loading="lazy" data-parallax="10"><figcaption>Exco United, challenge de marche</figcaption></figure>
+            <figure class="c2"><img src="assets/img/photos/exco-a-du-coeur-600.webp" srcset="assets/img/photos/exco-a-du-coeur-600.webp 600w, assets/img/photos/exco-a-du-coeur-1000.webp 1000w" sizes="(max-width: 1000px) 50vw, 18vw" alt="Jouets collectés au pied d’un sapin, sous le logo Exco" loading="lazy"><figcaption>Exco a du cœur</figcaption></figure>
+            <figure class="c3"><img src="assets/img/photos/seminaire-reseau-800.webp" srcset="assets/img/photos/seminaire-reseau-800.webp 800w, assets/img/photos/seminaire-reseau-1000.webp 1000w" sizes="(max-width: 1000px) 50vw, 26vw" alt="Une centaine de collaborateurs du réseau réunis en extérieur, en tee-shirt blanc" loading="lazy" data-parallax="8"><figcaption>Les équipes du réseau réunies</figcaption></figure>
+          </div>
+          <p style="margin-top:28px"><a class="link ext" href="https://exco.fr/wp-content/uploads/2024/06/Charte-Exco-RSE_VF-11102023.pdf" target="_blank" rel="noopener">Télécharger la charte RSE (PDF)</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- f°10 Carrières -->
+  <section class="section ruled" id="carrieres" data-folio="10" data-folio-name="Recrutement" aria-labelledby="car-title">
+    <div class="wrap">
+      <div class="section-head split">
+        <div>
+          <p class="folio-tag"><b>f° 10</b> Recrutement</p>
+          <h2 class="d2" id="car-title" data-split>Faire éclore les talents.</h2>
+        </div>
+        <p class="lede">Un métier de chiffres, mais avant tout de proximité, de conseil et d’écoute. Rejoignez des équipes à taille humaine, reliées à tout un réseau.</p>
+      </div>
+      <div class="career-hero" data-reveal="up"><img src="assets/img/grok/carrieres-equipe-1400.webp" srcset="assets/img/grok/carrieres-equipe-800.webp 800w, assets/img/grok/carrieres-equipe-1400.webp 1400w" sizes="100vw" alt="Quatre jeunes professionnels marchent ensemble dans une rue ensoleillée, vus de dos" loading="lazy" data-parallax="12"></div>
+      <div class="figures">
+        <div><span class="amt" data-flip="400">400</span><p>recrutements en CDI par an <span class="tbc">à confirmer</span></p><p class="note">L’en-tête de la page indique « près de 300 ».</p></div>
+        <div><span class="amt" data-flip="300">300</span><p>stagiaires et apprentis par an</p></div>
+        <div><span class="amt" data-flip="50">50</span><p>collaborateurs en moyenne par cabinet</p></div>
+      </div>
+      <div class="tabs" data-tabs>
+        <div class="tab-list" role="tablist" aria-label="Nos métiers"></div>
+      </div>
+      <h3 class="d4" style="margin-top:clamp(48px,6vw,80px)">Ils racontent leur métier</h3>
+      <div class="videos">
+        <a href="https://www.youtube.com/channel/UCdLEx0TboPWBR7W-R5KDElg" target="_blank" rel="noopener" data-cursor="YouTube"><img src="assets/img/videos/video-1-640.webp" alt="Vidéo Exco : une collaboratrice témoigne" loading="lazy"></a>
+        <a href="https://www.youtube.com/channel/UCdLEx0TboPWBR7W-R5KDElg" target="_blank" rel="noopener" data-cursor="YouTube"><img src="assets/img/videos/video-2-640.webp" alt="Vidéo Exco : une juriste témoigne" loading="lazy"></a>
+        <a href="https://www.youtube.com/channel/UCdLEx0TboPWBR7W-R5KDElg" target="_blank" rel="noopener" data-cursor="YouTube"><img src="assets/img/videos/video-3-640.webp" alt="Vidéo Exco : un collaborateur au téléphone" loading="lazy"></a>
+        <a href="https://www.youtube.com/channel/UCdLEx0TboPWBR7W-R5KDElg" target="_blank" rel="noopener" data-cursor="YouTube"><img src="assets/img/videos/video-4-640.webp" alt="Vidéo Exco : un collaborateur témoigne" loading="lazy"></a>
+      </div>
+      <p class="note" style="margin-top:10px">Vidéos de la chaîne YouTube Exco. Les liens directs vers chaque vidéo sont à compléter.</p>
+      <p style="margin-top:32px"><a class="btn" href="https://exco.flatchr.io/fr/company/exco/" target="_blank" rel="noopener" data-magnetic>Voir les offres d’emploi <span aria-hidden="true">↗</span></a></p>
+    </div>
+  </section>
+
+  <!-- f°11 Actualités -->
+  <section class="section" id="actualites" data-folio="11" data-folio-name="Actualités" aria-labelledby="news-title">
+    <div class="wrap">
+      <div class="section-head split">
+        <div>
+          <p class="folio-tag"><b>f° 11</b> Actualités</p>
+          <h2 class="d2" id="news-title" data-split>Les dernières écritures du réseau.</h2>
+        </div>
+        <p class="lede">Articles rédigés par nos experts et événements organisés par les cabinets.</p>
+      </div>
+      <div class="news-grid">
+        <a class="news" href="https://exco.fr/actualites-agricoles/transmission-agricole-exco-fso-autour-de-la-table-pour-redonner-vie-au-fonds-agricole-et-au-bail-cessible/" target="_blank" rel="noopener">
+          <div class="ph" data-reveal="up"><img src="assets/img/actus/transmission-agricole-600.webp" srcset="assets/img/actus/transmission-agricole-600.webp 600w, assets/img/actus/transmission-agricole-1000.webp 1000w" sizes="(max-width: 900px) 100vw, 30vw" alt="Une table ronde devant un écran de présentation, dans un amphithéâtre" loading="lazy"></div>
+          <time datetime="2026-10-19">19 octobre 2026</time>
+          <h3>Transmission agricole : Exco FSO autour de la table pour redonner vie au fonds agricole et au bail cessible</h3></a>
+        <a class="news" href="https://exco.fr/actualites-du-reseau-exco/actualites-reseau-exco-fso/exco-fso-rejoint-impulse-data-pour-renforcer-lexploitation-de-la-donnee-au-service-des-entreprises/" target="_blank" rel="noopener">
+          <div class="ph" data-reveal="up"><img src="assets/img/actus/impulse-data-600.webp" srcset="assets/img/actus/impulse-data-600.webp 600w, assets/img/actus/impulse-data-1000.webp 1000w" sizes="(max-width: 900px) 100vw, 30vw" alt="Visuel « Nouveaux associés septembre 2026 » d’Impulse Data avec les logos Exco et Tyls" loading="lazy"></div>
+          <time datetime="2026-10-19">19 octobre 2026</time>
+          <h3>Exco FSO rejoint Impulse Data pour renforcer l’exploitation de la donnée au service des entreprises</h3></a>
+        <a class="news" href="https://exco.fr/actualites-du-reseau-exco/actualites-reseau-exco-fso/matinagri-agiragri-face-a-lincertitude-agricole-comment-renforcer-la-resilience-des-exploitations/" target="_blank" rel="noopener">
+          <div class="ph" data-reveal="up"><img src="assets/img/actus/matinagri-600.webp" srcset="assets/img/actus/matinagri-600.webp 600w, assets/img/actus/matinagri-1000.webp 1000w" sizes="(max-width: 900px) 100vw, 30vw" alt="Les deux co-gérants du groupement Agiragri devant un kakémono" loading="lazy"></div>
+          <time datetime="2026-10-19">19 octobre 2026</time>
+          <h3>Matinagri Agiragri : face à l’incertitude agricole, comment renforcer la résilience des exploitations ?</h3></a>
+      </div>
+      <div class="event">
+        <img src="assets/img/actus/soiree-la-rochelle-600.webp" srcset="assets/img/actus/soiree-la-rochelle-600.webp 600w, assets/img/actus/soiree-la-rochelle-1000.webp 1000w" sizes="(max-width: 900px) 100vw, 30vw" alt="Affiche de la soirée Transmission d’entreprise d’Exco Valliance, le 19 novembre à 18 h 30 au Bio’Pôle de Périgny" loading="lazy">
+        <div>
+          <p class="folio-tag">Prochain événement</p>
+          <h3 class="d3" style="margin-top:10px">Transmission d’entreprise : une soirée dédiée aux dirigeants à La Rochelle</h3>
+          <p class="small" style="margin-top:10px">Jeudi 19 novembre 2026, 18 h 30 · Bio’Pôle, Périgny · organisée par Exco Valliance</p>
+          <p style="margin-top:14px"><a class="link ext" href="https://exco.fr/evenement/transmission-dentreprise-une-soiree-dediee-aux-dirigeants-a-la-rochelle/" target="_blank" rel="noopener">S’inscrire sur exco.fr</a></p>
+        </div>
+        <div class="countdown" data-countdown="2026-11-19T18:30:00+01:00" aria-label="Compte à rebours avant l’événement"></div>
+      </div>
+      <ul class="past" aria-label="Événements passés">
+        <li><span class="num">18 au 22 mai 2026</span><span>Exco s’engage pour les Journées de la sécurité routière au travail</span><em>Passé</em></li>
+        <li><span class="num">31 mars 2026</span><span>La facturation électronique, de la théorie à la pratique : comment réussir sa transition ?</span><em>Passé</em></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- f°12 Rendez-vous -->
+  <section class="section ruled" id="rendez-vous" data-folio="12" data-folio-name="Rendez-vous" aria-labelledby="rdv-title">
+    <div class="wrap">
+      <div class="section-head split">
+        <div>
+          <p class="folio-tag"><b>f° 12</b> Rendez-vous</p>
+          <h2 class="d2" id="rdv-title" data-split>Parlons de votre projet.</h2>
+        </div>
+        <p class="lede">Quatre écritures, deux minutes : nous vous mettons en relation avec le cabinet le plus proche, qui propose les métiers dont vous avez besoin.</p>
+      </div>
+      <div class="rdv">
+        <div data-rdv></div>
+        <aside class="rdv-aside" aria-label="Coordonnées d’Exco France">
+          <div class="ph" data-reveal="up"><img src="assets/img/grok/contact-table-784.webp" srcset="assets/img/grok/contact-table-480.webp 480w, assets/img/grok/contact-table-784.webp 784w" sizes="(max-width: 1000px) 100vw, 30vw" alt="Une table de rendez-vous près d’une fenêtre, deux chaises et un carnet ouvert" loading="lazy"></div>
+          <dl>
+            <div><dt>Exco France</dt><dd>42 avenue de la Grande Armée<br>75017 Paris</dd></div>
+            <div><dt>Téléphone</dt><dd><a href="tel:+33158052290">+33 (0)1 58 05 22 90</a></dd></div>
+            <div><dt>E-mail</dt><dd><a href="mailto:info@exco.fr">info@exco.fr</a></dd></div>
+          </dl>
+        </aside>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="ft">
+  <div class="wrap">
+    <div class="ft-top">
+      <div>
+        <h2>Le cabinet d’expertise comptable qui fertilise vos projets.</h2>
+        <address>Exco France<br>42 avenue de la Grande Armée, 75017 Paris<br><a href="tel:+33158052290">+33 (0)1 58 05 22 90</a> · <a href="mailto:info@exco.fr">info@exco.fr</a></address>
+      </div>
+      <div><h3>Le réseau</h3><ul><li><a href="cabinets.html">Trouver un cabinet</a></li><li><a href="#gouvernance">Gouvernance</a></li><li><a href="#rse">Engagements RSE</a></li><li><a href="https://exco.pl/" target="_blank" rel="noopener">Exco Pologne ↗</a></li><li><a href="https://excoafrique.com/" target="_blank" rel="noopener">Exco Afrique ↗</a></li></ul></div>
+      <div><h3>Métiers</h3><ul><li><a href="expertise-comptable.html">Expertise comptable</a></li><li><a href="#metiers">Tous nos métiers</a></li><li><a href="https://finance.exco.fr/" target="_blank" rel="noopener">Exco Finance et Transactions ↗</a></li><li><a href="https://gestionprivee.exco.fr/" target="_blank" rel="noopener">Exco Gestion Privée ↗</a></li></ul></div>
+      <div><h3>Suivre Exco</h3><ul><li><a href="https://www.linkedin.com/company/exco" target="_blank" rel="noopener">LinkedIn ↗</a></li><li><a href="https://www.facebook.com/reseauexco/" target="_blank" rel="noopener">Facebook ↗</a></li><li><a href="https://www.youtube.com/channel/UCdLEx0TboPWBR7W-R5KDElg" target="_blank" rel="noopener">YouTube ↗</a></li><li><a href="https://exco.fr/accedez-a-votre-compte-client/" target="_blank" rel="noopener">Accès client ↗</a></li></ul></div>
+    </div>
+    <div class="ft-total">
+      <span class="mono">Total des folios : 12 · <span class="dbl">Solde : simple et naturel</span></span>
+      <button class="calm-toggle" type="button" data-calm-toggle>Réduire les animations</button>
+    </div>
+    <div class="ft-legal">
+      <p>Exco SAS au capital de 46 000 €, RCS Paris 443 895 974, 42 avenue de la Grande Armée, 75017 Paris. Président et directeur de la publication : Philippe Lafargue. Chaque cabinet membre du réseau est une entité juridique indépendante, inscrite au tableau de l’Ordre des experts-comptables (numéros à compléter par cabinet). Kreston Global est un réseau de cabinets indépendants.</p>
+      <p>Mentions légales · Politique de confidentialité · Politique de cookies · Rapports de transparence · Index d’égalité femmes-hommes : pages à reprendre du site actuel. Maquette de travail, contenus à valider par Exco.</p>
+    </div>
+  </div>
+</footer>
+
+<div class="report" aria-hidden="true"><span>À reporter</span><b>0,0 %</b></div>
+
+<script src="assets/vendor/gsap.min.js"></script>
+<script src="assets/vendor/ScrollTrigger.min.js"></script>
+<script src="assets/vendor/SplitText.min.js"></script>
+<script src="assets/vendor/DrawSVGPlugin.min.js"></script>
+<script src="assets/vendor/CustomEase.min.js"></script>
+<script src="assets/vendor/lenis.min.js"></script>
+<script src="assets/vendor/ogl.min.js"></script>
+<script src="assets/data/cabinets.js"></script>
+<script src="assets/data/geo.js"></script>
+<script src="assets/js/core.js"></script>
+<script src="assets/js/viz.js"></script>
+<script src="assets/js/hero-gl.js"></script>
+<script src="assets/js/reseau.js"></script>
+<script src="assets/js/rdv.js"></script>
+<script src="assets/js/home.js"></script>
+</body>
+</html>

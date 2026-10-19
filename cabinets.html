@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trouver votre cabinet · Exco</title>
+<meta name="description" content="Les 139 cabinets Exco en France, en outre-mer, en Europe et en Afrique : adresse, téléphone, horaires et métiers proposés.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#EEE9DC">
+<link rel="icon" href="assets/img/logos/exco-logo.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/newsreader.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/vendor/lenis.css">
+<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body data-page="cabinets">
+<a class="skip" href="#contenu">Aller au contenu</a>
+<div class="margin-rule" aria-hidden="true"></div>
+<div class="margin-label" aria-hidden="true">f° <b>01</b>&nbsp;&nbsp;Trouver un cabinet</div>
+
+<header class="hd">
+  <a class="hd-logo" href="index.html" aria-label="Exco, accueil"><img src="assets/img/logos/exco-logo.svg" alt="Exco" width="116" height="31"></a>
+  <span class="hd-tag" title="Proposition de refonte, non officielle">Maquette</span>
+  <nav class="hd-nav" aria-label="Navigation principale">
+    <a href="index.html#reseau">Le réseau</a>
+    <a href="index.html#metiers">Nos métiers</a>
+    <a href="cabinets.html" aria-current="page">Trouver un cabinet</a>
+    <a href="index.html#carrieres">Recrutement</a>
+    <a href="index.html#actualites">Actualités</a>
+  </nav>
+  <div class="hd-right">
+    <span class="hd-folio" aria-hidden="true">f° <b data-folio-now>01</b> / <span data-folio-total>04</span></span>
+    <a class="btn btn-sm" href="index.html#rendez-vous" data-magnetic>Prendre rendez-vous</a>
+    <button class="hd-menu" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+  </div>
+</header>
+<div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="Menu">
+  <button class="menu-close btn btn-line btn-sm" type="button">Fermer</button>
+  <a class="menu-item" href="index.html">Accueil <span>f° 01</span></a>
+  <a class="menu-item" href="index.html#metiers">Nos métiers <span>f° 05</span></a>
+  <a class="menu-item" href="cabinets.html">Trouver un cabinet <span>139</span></a>
+  <a class="menu-item" href="expertise-comptable.html">Expertise comptable <span>page</span></a>
+  <a class="menu-item" href="index.html#carrieres">Recrutement <span>f° 10</span></a>
+  <a class="btn" href="index.html#rendez-vous">Prendre rendez-vous</a>
+</div>
+
+<main id="contenu">
+  <section class="loc-hero ruled" data-folio="01" data-folio-name="Trouver un cabinet" aria-labelledby="loc-title">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Fil d’Ariane"><a href="index.html">Accueil</a><span aria-hidden="true">/</span><span>Trouver un cabinet</span></nav>
+      <div class="section-head split" style="margin-bottom:0">
+        <h1 class="d1" id="loc-title" data-split>Trouver votre cabinet.</h1>
+        <p class="lede">139 cabinets en France, en outre-mer, en Europe et en Afrique. Cherchez par ville, code postal ou département, filtrez par métier, ou laissez-vous localiser.</p>
+      </div>
+      <div class="loc-tools">
+        <form class="loc-search" role="search" data-search>
+          <div class="field"><label for="q" class="sr">Ville, code postal, département ou pays</label><input id="q" name="q" placeholder="Ville, code postal, département ou pays" autocomplete="address-level2"></div>
+          <button class="btn" type="submit" data-magnetic>Chercher</button>
+          <button class="btn btn-line" type="button" data-locate>Me localiser</button>
+        </form>
+        <div class="loc-filters" data-filters role="group" aria-label="Filtrer par métier"></div>
+        <div class="zone-tabs" role="tablist" aria-label="Zone" data-zones></div>
+        <p class="loc-status" aria-live="polite" data-status></p>
+        <div class="view-toggle" role="group" aria-label="Affichage"><button type="button" aria-pressed="true" data-view="list">Liste</button><button type="button" aria-pressed="false" data-view="map">Carte</button></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap loc-main" data-view="list" aria-label="Résultats">
+    <div class="loc-list-wrap"><ul class="loc-list" data-list></ul></div>
+    <div class="loc-map" data-map-box>
+      <div class="map-bar"><span data-map-label>France métropolitaine</span><button type="button" data-map-reset>Vue d’ensemble</button></div>
+      <div class="map-wrap" data-map-fr></div>
+      <div class="map-wrap" data-map-world hidden></div>
+      <div data-map-om hidden></div>
+      <p class="note" style="margin-top:10px">Positions à l’échelle de la commune. Distances à vol d’oiseau.</p>
+    </div>
+  </section>
+
+  <section class="prox" data-folio="02" data-folio-name="Proximité" aria-labelledby="prox-title">
+    <img src="assets/img/photos/seminaire-reseau-1000.webp" srcset="assets/img/photos/seminaire-reseau-800.webp 800w, assets/img/photos/seminaire-reseau-1000.webp 1000w" sizes="100vw" alt="Les équipes du réseau Exco réunies en extérieur" loading="lazy" data-parallax="14">
+    <div class="wrap">
+      <p class="folio-tag" style="color:#fff"><b>f° 02</b> Proximité</p>
+      <h2 class="d2" id="prox-title" style="margin-top:16px;max-width:14em" data-split>Des cabinets à taille humaine, la force d’un groupe.</h2>
+      <p class="lede" style="margin-top:20px">Avec 50 collaborateurs en moyenne, chaque cabinet garde la proximité d’une équipe à taille humaine. Les savoir-faire, les outils et les méthodes, eux, se partagent dans tout le réseau.</p>
+    </div>
+  </section>
+
+  <section class="section ruled" id="villes" data-folio="03" data-folio-name="Les cabinets par ville" aria-labelledby="az-title">
+    <div class="wrap">
+      <div class="section-head split">
+        <div><p class="folio-tag"><b>f° 03</b> Les cabinets par ville</p><h2 class="d2" id="az-title" data-split>De Aire-sur-l’Adour à Yaoundé.</h2></div>
+        <p class="lede">L’index complet des villes où le réseau est présent. Un clic affiche les cabinets de la ville.</p>
+      </div>
+      <div class="az" data-az></div>
+    </div>
+  </section>
+
+  <section class="section" id="groupes" data-folio="04" data-folio-name="Les groupes membres" aria-labelledby="grp-title">
+    <div class="wrap">
+      <div class="section-head split">
+        <div><p class="folio-tag"><b>f° 04</b> Les groupes membres</p><h2 class="d2" id="grp-title" data-split>23 groupes, un seul réseau.</h2></div>
+        <p class="lede">Chaque groupe réunit un ou plusieurs cabinets. Un clic sur un groupe affiche ses cabinets.</p>
+      </div>
+      <ul class="groups" data-groups></ul>
+      <p class="note" style="margin-top:18px">SEG Pacifique (Papeete) figure parmi les membres mais pas dans la page « Les cabinets par ville » du site actuel. <span class="tbc">à vérifier</span></p>
+    </div>
+  </section>
+</main>
+
+<footer class="ft">
+  <div class="wrap">
+    <div class="ft-top">
+      <div>
+        <h2>Le cabinet d’expertise comptable qui fertilise vos projets.</h2>
+        <address>Exco France<br>42 avenue de la Grande Armée, 75017 Paris<br><a href="tel:+33158052290">+33 (0)1 58 05 22 90</a> · <a href="mailto:info@exco.fr">info@exco.fr</a></address>
+      </div>
+      <div><h3>Le réseau</h3><ul><li><a href="index.html#reseau">Le réseau</a></li><li><a href="index.html#gouvernance">Gouvernance</a></li><li><a href="index.html#rse">Engagements RSE</a></li></ul></div>
+      <div><h3>Métiers</h3><ul><li><a href="expertise-comptable.html">Expertise comptable</a></li><li><a href="index.html#metiers">Tous nos métiers</a></li></ul></div>
+      <div><h3>Suivre Exco</h3><ul><li><a href="https://www.linkedin.com/company/exco" target="_blank" rel="noopener">LinkedIn ↗</a></li><li><a href="https://www.youtube.com/channel/UCdLEx0TboPWBR7W-R5KDElg" target="_blank" rel="noopener">YouTube ↗</a></li><li><a href="https://exco.fr/accedez-a-votre-compte-client/" target="_blank" rel="noopener">Accès client ↗</a></li></ul></div>
+    </div>
+    <div class="ft-total"><span class="mono">Données des 139 fiches cabinets d’exco.fr, relevées le 19 octobre 2026</span><button class="calm-toggle" type="button" data-calm-toggle>Réduire les animations</button></div>
+    <div class="ft-legal"><p>Exco SAS au capital de 46 000 €, RCS Paris 443 895 974. Chaque cabinet membre est une entité juridique indépendante, inscrite au tableau de l’Ordre des experts-comptables (numéros à compléter). Maquette de travail, contenus à valider par Exco.</p></div>
+  </div>
+</footer>
+<div class="report" aria-hidden="true"><span>À reporter</span><b>0,0 %</b></div>
+
+<script src="assets/vendor/gsap.min.js"></script>
+<script src="assets/vendor/ScrollTrigger.min.js"></script>
+<script src="assets/vendor/SplitText.min.js"></script>
+<script src="assets/vendor/CustomEase.min.js"></script>
+<script src="assets/vendor/lenis.min.js"></script>
+<script src="assets/data/cabinets.js"></script>
+<script src="assets/data/geo.js"></script>
+<script src="assets/js/core.js"></script>
+<script src="assets/js/reseau.js"></script>
+<script src="assets/js/cabinets.js"></script>
+</body>
+</html>
